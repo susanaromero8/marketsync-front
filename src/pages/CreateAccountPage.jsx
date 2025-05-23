@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import ContainerLogin from "../components/ContainerLogin";
-import { registerSchema } from "../../../back/src/schemas/registerSchema";
+import { registerSchema } from "../schemas/registerSchema";
 import Spinner from "../components/Spinner";
 import InputField from "../components/InputField";
 import { useRegister } from "../hooks/useRegister";

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { zodResolver } from "@hookform/resolvers/zod";
 import ContainerLogin from "../components/ContainerLogin";
-import { loginSchema } from "../../../back/src/schemas/loginSchema";
+import { loginSchema } from "../schemas/loginSchema";
 import { useForm } from "react-hook-form";
 import Spinner from "../components/Spinner";
 import InputField from "../components/InputField";
