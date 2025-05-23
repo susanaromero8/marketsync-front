@@ -30,6 +30,7 @@ const TableRow = ({ product }) => {
       <td className="py-2 px-4 w-28">
         <input
           type="number"
+          min="0"
           className="w-full rounded-md border border-gray-300 px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           placeholder="Nuevo precio"
           onChange={handleChange}
