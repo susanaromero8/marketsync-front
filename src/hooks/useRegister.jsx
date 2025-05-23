@@ -14,7 +14,7 @@ export const useRegister = () => {
     const { username, password, name, last_name, confirmPassword } = data;
     setLoading(true);
     try {
-      const response = await api.post(`/register`, {
+      const response = await api.post(`/auth/register`, {
         username,
         password,
         confirmPassword,
@@ -26,7 +26,7 @@ export const useRegister = () => {
 
       checkAuth();
 
-      navigate("/home");
+      navigate("/");
     } catch (err) {
       console.error("Error al iniciar sesión:", err);
       setError(err.response?.data?.message || "Ocurrió un error");
