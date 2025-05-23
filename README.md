@@ -76,10 +76,10 @@ src/
 
 ## 📷 Capturas
 
-```
+
 ![Login Page](./screenshots/login.png)
 ![Home Page](./screenshots/home.png)
 ![Error Page](./screenshots/notfound.png)
-```
+
 
 ---
